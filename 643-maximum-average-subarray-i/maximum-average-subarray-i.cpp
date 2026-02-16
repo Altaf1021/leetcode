@@ -1,6 +1,7 @@
 class Solution {
 public:
     double findMaxAverage(vector<int>& nums, int k) {
+        // sliding window
         int n=nums.size(),i=0;
         double ans=-1e18,curr=0.0;
         while(i<n){
